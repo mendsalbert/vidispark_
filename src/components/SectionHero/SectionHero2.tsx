@@ -18,8 +18,7 @@ const SectionHero2: FC<SectionHero2Props> = ({ className = "", children }) => {
             Create, Stream, Monetize Your Video Content 🚀
           </h2>
           <span className="text-base md:text-lg text-neutral-500 dark:text-neutral-400">
-            Discover the most outstanding NTFs in all topics of life. <br />{" "}
-            Creative your NTFs and sell them
+            Empower Your Video Creativity Today!
           </span>
           <ButtonPrimary>
             <span>Start your search</span>
