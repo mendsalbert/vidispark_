@@ -17,7 +17,7 @@ export interface SectionGridAuthorBoxProps {
   data?: any[];
 }
 
-const SectionGridLeaderboard: FC<SectionGridAuthorBoxProps> = ({
+const SectionGridLearderboard: FC<SectionGridAuthorBoxProps> = ({
   className = "",
   boxCard = "box1",
   sectionStyle = "style1",
@@ -55,8 +55,21 @@ const SectionGridLeaderboard: FC<SectionGridAuthorBoxProps> = ({
   const renderHeading1 = () => {
     return (
       <div className="mb-12 lg:mb-16  flex justify-between flex-col sm:flex-row">
-        <Heading className="text-neutral-900 text-center dark:text-neutral-50">
-          Leaderboard
+        <Heading
+          rightPopoverText="Creators"
+          rightPopoverOptions={[
+            {
+              name: "Creators",
+              href: "#",
+            },
+            {
+              name: "Buyers",
+              href: "#",
+            },
+          ]}
+          className="text-neutral-900 dark:text-neutral-50"
+        >
+          Popular
         </Heading>
       </div>
     );
@@ -71,7 +84,7 @@ const SectionGridLeaderboard: FC<SectionGridAuthorBoxProps> = ({
           isCenter
           desc=""
         >
-          Leaderbord
+          Top List Creators.
         </Heading>
         <Nav
           className="p-1 bg-white dark:bg-neutral-800 rounded-full shadow-lg"
@@ -144,4 +157,4 @@ const SectionGridLeaderboard: FC<SectionGridAuthorBoxProps> = ({
   );
 };
 
-export default SectionGridLeaderboard;
+export default SectionGridLearderboard;
