@@ -88,7 +88,7 @@ const SectionGridAuthorBox: FC<SectionGridAuthorBoxProps> = ({
           isCenter
           desc=""
         >
-          Top List Creator.
+          Top List Creators.
         </Heading>
         <Nav
           className="p-1 bg-white dark:bg-neutral-800 rounded-full shadow-lg"
