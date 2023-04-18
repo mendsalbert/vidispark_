@@ -36,7 +36,7 @@ const Logo: React.FC<LogoProps> = ({
         />
       )} */}
       <span className="w-7  h-7 bg-[#008faf] rounded-full">
-        <span>🎥</span>
+        <span className="text-xl">🎥</span>
       </span>
     </Link>
   );
