@@ -76,13 +76,13 @@ function PageHome() {
         <SectionSliderCategories />
 
         {/* SECTION */}
-        <div className="relative py-20 lg:py-24">
+        {/* <div className="relative py-20 lg:py-24">
           <BackgroundSection />
           <SectionBecomeAnAuthor />
-        </div>
+        </div> */}
 
         {/* SECTION */}
-        <SectionVideos />
+        {/* <SectionVideos /> */}
       </div>
     </div>
   );
