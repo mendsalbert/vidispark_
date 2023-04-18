@@ -73,7 +73,7 @@ const SectionVideosLive: FC<SectionVideosLiveProps> = ({
         desc="Check out our hottest videos. View more and share more new
           perspectives on just about any topic. Everyone’s welcome."
       >
-        <div className="flex flex-row items-center justify-center">
+        <div className="flex flex-row items-center ">
           <span>You are live </span>
           <span className="relative flex h-6 w-6 ml-2">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75"></span>
