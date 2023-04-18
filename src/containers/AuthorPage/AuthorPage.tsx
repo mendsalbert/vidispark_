@@ -85,9 +85,11 @@ const AuthorPage: FC<AuthorPageProps> = ({ className = "" }) => {
                     />
                   </svg>
                 </div>
-                <span className="mt-2 py-0 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-full px-2 text-sm cursor-pointer font-semibold ">
-                  Subscribe
-                </span>
+                <div className="mt-4">
+                  <span className="mt-2 py-0 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-full px-2 text-sm cursor-pointer font-semibold ">
+                    Subscribe
+                  </span>
+                </div>
                 <span className="block mt-4 text-sm text-neutral-500 dark:text-neutral-400">
                   Punk #4786 / An OG Cryptopunk Collector, hoarder of NFTs.
                   Contributing to @ether_cards, an NFT Monetization Platform.
