@@ -8,6 +8,7 @@ import React, { FC } from "react";
 import ButtonPrimary from "shared/Button/ButtonPrimary";
 import ButtonSecondary from "shared/Button/ButtonSecondary";
 import Nav from "shared/Nav/Nav";
+import SortOrderFilter from "./SortOrderFilter";
 
 export interface SectionGridAuthorBoxProps {
   className?: string;
@@ -17,7 +18,7 @@ export interface SectionGridAuthorBoxProps {
   data?: any[];
 }
 
-const SectionGridLearderboard: FC<SectionGridAuthorBoxProps> = ({
+const SectionGridAuthorBox: FC<SectionGridAuthorBoxProps> = ({
   className = "",
   boxCard = "box1",
   sectionStyle = "style1",
@@ -71,6 +72,9 @@ const SectionGridLearderboard: FC<SectionGridAuthorBoxProps> = ({
         >
           Popular
         </Heading>
+        <div className="mt-4 sm:mt-0">
+          <SortOrderFilter />
+        </div>
       </div>
     );
   };
@@ -157,4 +161,4 @@ const SectionGridLearderboard: FC<SectionGridAuthorBoxProps> = ({
   );
 };
 
-export default SectionGridLearderboard;
+export default SectionGridAuthorBox;
