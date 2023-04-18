@@ -239,7 +239,7 @@ const AuthorPage: FC<AuthorPageProps> = ({ className = "" }) => {
         </div>
 
         {/* SUBCRIBES */}
-        {/* <SectionBecomeAnAuthor /> */}
+        <SectionBecomeAnAuthor />
       </div>
     </div>
   );
