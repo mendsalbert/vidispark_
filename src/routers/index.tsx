@@ -21,6 +21,7 @@ import PageSearch from "containers/PageSearch";
 import PageUploadItem from "containers/PageUploadItem";
 import PageConnectWallet from "containers/PageConnectWallet";
 import PageHome2 from "containers/PageHome/PageHome2";
+import PageLive from "containers/pageLive/PageLive";
 
 export const pages: Page[] = [
   { path: "/", exact: true, component: PageHome2 },
@@ -35,7 +36,7 @@ export const pages: Page[] = [
   { path: "/account", component: AccountPage },
   { path: "/page-upload-item", component: PageUploadItem },
   { path: "/connect-wallet", component: PageConnectWallet },
-  { path: "/live", component: PageConnectWallet },
+  { path: "/live", component: PageLive },
 
   //
   { path: "/blog", component: BlogPage },
