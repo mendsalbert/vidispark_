@@ -45,7 +45,7 @@ const SectionHero2: FC<SectionHero2Props> = ({ className = "", children }) => {
             </ButtonPrimary>
             <Link to="/live">
               <ButtonPrimary
-                sizeClass="px-4 py-2 sm:px-5"
+                sizeClass="px-4 py-3 sm:px-5"
                 className="bg-red-500  hover:bg-red-700"
               >
                 Go Live
