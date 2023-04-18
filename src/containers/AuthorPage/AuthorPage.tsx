@@ -97,7 +97,7 @@ const AuthorPage: FC<AuthorPageProps> = ({ className = "" }) => {
                     Vidispark Token{" "}
                   </span>
                   <span className="text-xl  font-semibold text-green-500">
-                    1.000 ETH
+                    40333 VSP
                   </span>
                 </div>
               </div>
