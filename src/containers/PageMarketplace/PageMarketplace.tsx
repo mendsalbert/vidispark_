@@ -10,3 +10,5 @@ const PageMarketplace = (props: Props) => {
     </div>
   );
 };
+
+export default PageMarketplace;
