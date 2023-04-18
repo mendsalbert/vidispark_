@@ -10,7 +10,11 @@ const PageLearderboard = (props: Props) => {
     <div className="nc-PageHome relative overflow-hidden">
       <div className="container relative space-y-24 my-24 lg:space-y-32 lg:my-32">
         <BackgroundSection />
-        <SectionGridLeaderboard />
+        <SectionGridLeaderboard
+          sectionStyle="style2"
+          data={Array.from("11111111")}
+          boxCard="box4"
+        />
         {/* <SectionGridAuthorBox
           sectionStyle="style2"
           data={Array.from("11111111")}
