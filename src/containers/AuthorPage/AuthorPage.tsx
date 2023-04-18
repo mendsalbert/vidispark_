@@ -96,7 +96,7 @@ const AuthorPage: FC<AuthorPageProps> = ({ className = "" }) => {
                   <span className="absolute bottom-full translate-y-1 py-1 px-1.5 bg-white dark:bg-neutral-900 text-sm text-neutral-500 dark:text-neutral-400">
                     Current Bid
                   </span>
-                  <span className="text-3xl xl:text-4xl font-semibold text-green-500">
+                  <span className="text-xl  font-semibold text-green-500">
                     1.000 ETH
                   </span>
                   <span className="text-lg text-neutral-400 sm:ml-5">
