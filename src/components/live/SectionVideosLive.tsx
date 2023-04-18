@@ -69,7 +69,7 @@ const SectionVideosLive: FC<SectionVideosLiveProps> = ({
 
   return (
     <div className={`nc-SectionVideos ${className}`}>
-      <Heading desc="Your current settings says everyone with the live link can join">
+      <Heading desc="Your current settings says everyone with the live link can join. In other words your live is public">
         <div className="flex flex-row items-center ">
           <span>You are live </span>
           <span className="relative flex h-6 w-6 ml-2">
