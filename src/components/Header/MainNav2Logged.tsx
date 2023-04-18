@@ -63,7 +63,7 @@ const MainNav2Logged: FC<MainNav2LoggedProps> = () => {
             <ButtonPrimary sizeClass="px-4 py-2 sm:px-5">Create</ButtonPrimary>
             <ButtonPrimary
               sizeClass="px-4 py-2 sm:px-5"
-              className="bg-red-500 space-x-2"
+              className="bg-red-500 "
             >
               Live
               <span className="relative flex h-3 w-3">
