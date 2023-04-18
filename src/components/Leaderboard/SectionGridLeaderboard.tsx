@@ -8,7 +8,6 @@ import React, { FC } from "react";
 import ButtonPrimary from "shared/Button/ButtonPrimary";
 import ButtonSecondary from "shared/Button/ButtonSecondary";
 import Nav from "shared/Nav/Nav";
-import SortOrderFilter from "./SortOrderFilter";
 
 export interface SectionGridAuthorBoxProps {
   className?: string;
@@ -72,9 +71,6 @@ const SectionGridAuthorBox: FC<SectionGridAuthorBoxProps> = ({
         >
           Popular
         </Heading>
-        <div className="mt-4 sm:mt-0">
-          <SortOrderFilter />
-        </div>
       </div>
     );
   };
