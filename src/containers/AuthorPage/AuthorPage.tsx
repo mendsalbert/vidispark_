@@ -100,9 +100,6 @@ const AuthorPage: FC<AuthorPageProps> = ({ className = "" }) => {
                     40333 VSP
                   </span>
                 </div>
-                <span className="mt-5 py-0 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-full px-2 text-sm cursor-pointer font-semibold ">
-                  Subscribe
-                </span>
               </div>
               <div className="mt-4 ">
                 <SocialsList itemClass="block w-7 h-7" />
