@@ -99,6 +99,9 @@ const AuthorPage: FC<AuthorPageProps> = ({ className = "" }) => {
                   <span className="text-xl text-center font-semibold text-green-500">
                     40333 VSP
                   </span>
+                  <span className="text-xl text-center font-semibold text-green-500">
+                    40333 VSP
+                  </span>
                 </div>
               </div>
               <div className="mt-4 ">
