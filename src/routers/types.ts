@@ -16,6 +16,7 @@ export interface LocationStates {
   "/account"?: {};
   "/live"?: {};
   "/leaderboard"?: {};
+  "/marketplace"?: {};
   //
   "/blog"?: {};
   "/blog-single"?: {};
