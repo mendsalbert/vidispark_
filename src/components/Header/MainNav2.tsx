@@ -54,7 +54,7 @@ const MainNav2: FC<MainNav2Props> = () => {
           <div className="hidden items-center xl:flex space-x-2">
             <Navigation />
             <div className="hidden sm:block h-10 border-l border-neutral-300 dark:border-neutral-6000"></div>
-            <SwitchDarkMode />
+            {/* <SwitchDarkMode /> */}
             <ButtonPrimary
               href={"/page-upload-item"}
               sizeClass="px-4 py-2 sm:px-5"
