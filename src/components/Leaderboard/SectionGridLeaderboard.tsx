@@ -79,7 +79,7 @@ const SectionGridAuthorBox: FC<SectionGridAuthorBoxProps> = ({
     return (
       <div>
         <Heading
-          className="mb-12 py-5 lg:mb-14 text-neutral-900 dark:text-neutral-50"
+          className="mb-12 my-5 lg:mb-14 text-neutral-900 dark:text-neutral-50"
           fontClass="text-3xl md:text-4xl 2xl:text-5xl font-semibold"
           isCenter
           desc=""
