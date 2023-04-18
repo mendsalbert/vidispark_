@@ -85,7 +85,7 @@ const AuthorPage: FC<AuthorPageProps> = ({ className = "" }) => {
                     />
                   </svg>
                 </div>
-                <span className="py-0 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-full px-2 text-md font-semibold ">
+                <span className="mt-2 py-0 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-full px-2 text-md font-semibold ">
                   Subscribe
                 </span>
                 <span className="block mt-4 text-sm text-neutral-500 dark:text-neutral-400">
