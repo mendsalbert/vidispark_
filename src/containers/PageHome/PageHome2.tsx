@@ -64,7 +64,7 @@ function PageHome() {
         </div> */}
 
         {/* SECTION */}
-        <SectionSubscribe2 />
+        {/* <SectionSubscribe2 /> */}
 
         {/* SECTION */}
         <div className="relative py-20 lg:py-28">
