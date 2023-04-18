@@ -41,6 +41,8 @@ function PageHome() {
 
       <div className="container relative space-y-24 my-24 lg:space-y-32 lg:my-32">
         {/* SECTION 3 */}
+        <SectionSliderCardNftVideo />
+
         <SectionMagazine8 />
 
         {/* SECTION */}
@@ -54,7 +56,6 @@ function PageHome() {
         </div>
 
         {/* SECTION 4 */}
-        <SectionSliderCardNftVideo />
 
         {/* SECTION */}
         <div className="relative py-20 lg:py-28">
