@@ -1,5 +1,4 @@
 import SectionVideosLive from "components/live/SectionVideosLive";
-import SectionVideos from "containers/PageHome/SectionVideos";
 import React from "react";
 
 type Props = {};
