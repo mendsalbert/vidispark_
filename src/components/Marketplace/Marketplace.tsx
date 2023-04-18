@@ -35,7 +35,7 @@ interface Sponsor {
   campaigns: Campaign[];
 }
 
-export const Marketplace = ({ creatorId }: MarketplaceProps) => {
+export const Marketplace = () => {
   const creators = [
     {
       id: "1",
@@ -137,11 +137,6 @@ export const Marketplace = ({ creatorId }: MarketplaceProps) => {
   const [selectedCampaign, setSelectedCampaign] = useState<Campaign | null>(
     null
   );
-
-  useEffect(() => {
-    // fetch data from Vidispark API using creatorId
-    // update creators and sponsors state variables with API response
-  }, [creatorId]);
 
   const handleCampaignSelect = (campaign: Campaign) => {
     setSelectedCampaign(campaign);
