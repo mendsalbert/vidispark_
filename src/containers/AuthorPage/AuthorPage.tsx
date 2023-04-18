@@ -67,11 +67,7 @@ const AuthorPage: FC<AuthorPageProps> = ({ className = "" }) => {
                   <span className="text-neutral-700 dark:text-neutral-300">
                     4.0xc4c16ac453sa645a...b21a{" "}
                   </span>
-                  <FollowButton
-                    isFollowing={false}
-                    fontSize="text-sm md:text-base font-medium"
-                    sizeClass="px-4 py-1 md:py-2.5 h-8 md:!h-10 sm:px-6 lg:px-8"
-                  />
+
                   <svg width="20" height="21" viewBox="0 0 20 21" fill="none">
                     <path
                       d="M18.05 9.19992L17.2333 12.6833C16.5333 15.6916 15.15 16.9083 12.55 16.6583C12.1333 16.6249 11.6833 16.5499 11.2 16.4333L9.79999 16.0999C6.32499 15.2749 5.24999 13.5583 6.06665 10.0749L6.88332 6.58326C7.04999 5.87492 7.24999 5.25826 7.49999 4.74992C8.47499 2.73326 10.1333 2.19159 12.9167 2.84993L14.3083 3.17493C17.8 3.99159 18.8667 5.71659 18.05 9.19992Z"
@@ -89,7 +85,11 @@ const AuthorPage: FC<AuthorPageProps> = ({ className = "" }) => {
                     />
                   </svg>
                 </div>
-
+                <FollowButton
+                  isFollowing={false}
+                  fontSize="text-sm md:text-base font-medium"
+                  sizeClass="px-4 py-1 md:py-2.5 h-8 md:!h-10 sm:px-6 lg:px-8"
+                />
                 <span className="block mt-4 text-sm text-neutral-500 dark:text-neutral-400">
                   Punk #4786 / An OG Cryptopunk Collector, hoarder of NFTs.
                   Contributing to @ether_cards, an NFT Monetization Platform.
