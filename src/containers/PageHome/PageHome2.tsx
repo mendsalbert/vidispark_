@@ -33,11 +33,11 @@ function PageHome() {
       </div>
 
       {/* SECTION LAERGE SLIDER */}
-      <div className="bg-neutral-100/70 dark:bg-black/20 py-20 lg:py-32">
+      {/* <div className="bg-neutral-100/70 dark:bg-black/20 py-20 lg:py-32">
         <div className="container">
           <SectionLargeSlider />
         </div>
-      </div>
+      </div> */}
 
       <div className="container relative space-y-24 my-24 lg:space-y-32 lg:my-32">
         {/* SECTION 3 */}
