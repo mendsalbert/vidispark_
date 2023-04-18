@@ -1,4 +1,4 @@
-import { Marketplace } from "components/Marketplace/Marketplace";
+import Marketplace from "components/Marketplace/Marketplace";
 import React from "react";
 
 type Props = {};
