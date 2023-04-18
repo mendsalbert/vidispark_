@@ -69,7 +69,7 @@ const SectionGridLeaderboard: FC<SectionGridAuthorBoxProps> = ({
           ]}
           className="text-neutral-900 dark:text-neutral-50"
         >
-          Popular
+          Leaderboard
         </Heading>
       </div>
     );
