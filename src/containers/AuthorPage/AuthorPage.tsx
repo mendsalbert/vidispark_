@@ -99,7 +99,7 @@ const AuthorPage: FC<AuthorPageProps> = ({ className = "" }) => {
                     Vidispark Token{" "}
                   </span>
                   <span className="text-xl text-center font-semibold text-green-500">
-                    40333 VSP
+                    40333 VSP #34
                   </span>
                 </div>
                 <div className="mt-2">
