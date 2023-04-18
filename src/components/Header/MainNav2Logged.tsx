@@ -63,6 +63,7 @@ const MainNav2Logged: FC<MainNav2LoggedProps> = () => {
             <ButtonPrimary sizeClass="px-4 py-2 sm:px-5">Create</ButtonPrimary>
             <ButtonPrimary sizeClass="px-4 py-2 sm:px-5" className="bg-red-500">
               Live
+              <span className="animate-ping  inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
             </ButtonPrimary>
             <div></div>
             <AvatarDropdown />
