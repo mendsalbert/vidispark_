@@ -20,7 +20,7 @@ const SectionHero2: FC<SectionHero2Props> = ({ className = "", children }) => {
           <span className="text-base md:text-lg text-neutral-500 dark:text-neutral-400">
             Empower Your Video Creativity Today!
           </span>
-          <div className="flex flex-row">
+          <div className="flex flex-row space-x-2">
             <ButtonPrimary>
               <span>Start your search</span>
               <span>
