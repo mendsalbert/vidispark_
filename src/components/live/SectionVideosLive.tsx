@@ -72,6 +72,7 @@ const SectionVideosLive: FC<SectionVideosLiveProps> = ({
       <Heading
         desc="Check out our hottest videos. View more and share more new
           perspectives on just about any topic. Everyone’s welcome."
+        className="flex flex-row"
       >
         You are live{" "}
         <span className="relative flex h-6 w-6 ml-2">
