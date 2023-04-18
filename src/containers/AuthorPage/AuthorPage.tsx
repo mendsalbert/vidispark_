@@ -85,11 +85,7 @@ const AuthorPage: FC<AuthorPageProps> = ({ className = "" }) => {
                     />
                   </svg>
                 </div>
-                <FollowButton
-                  isFollowing={false}
-                  fontSize="text-sm md:text-base font-medium"
-                  sizeClass="px-4 py-1 md:py-2.5 h-8 md:!h-10 sm:px-6 lg:px-8"
-                />
+                <ButtonPrimary className="">Subscribe</ButtonPrimary>
                 <span className="block mt-4 text-sm text-neutral-500 dark:text-neutral-400">
                   Punk #4786 / An OG Cryptopunk Collector, hoarder of NFTs.
                   Contributing to @ether_cards, an NFT Monetization Platform.
