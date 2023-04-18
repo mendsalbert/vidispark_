@@ -85,8 +85,10 @@ const SectionVideosLive: FC<SectionVideosLiveProps> = ({
         <div className="flex-grow w-full   "> {renderMainVideo()}</div>
         {/* <div className="flex-grow relative  ">{renderMainVideo()}</div> */}
       </div>
-      <div className="block xl:hidden  w-full rounded-3xl bg-primary-100 sm:rounded-[50px]  dark:bg-neutral-800/80">
-        fdsfaf
+      <div className="sm:pr-4 sm:py-4 md:pr-6 md:py-6 xl:pr-14 xl:py-14">
+        <div className="block xl:hidden  w-full rounded-3xl bg-primary-100 sm:rounded-[50px]  dark:bg-neutral-800/80">
+          fdsfaf
+        </div>
       </div>
     </div>
   );
