@@ -88,11 +88,21 @@ const AuthorPage: FC<AuthorPageProps> = ({ className = "" }) => {
                 <span className="mt-2 py-0 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 rounded-full px-2 text-sm cursor-pointer font-semibold ">
                   Subscribe
                 </span>
-                <span>500 VSP</span>
                 <span className="block mt-4 text-sm text-neutral-500 dark:text-neutral-400">
                   Punk #4786 / An OG Cryptopunk Collector, hoarder of NFTs.
                   Contributing to @ether_cards, an NFT Monetization Platform.
                 </span>
+                <div className="flex-1 flex flex-col sm:flex-row items-baseline p-6 border-2 border-green-500 rounded-xl relative">
+                  <span className="absolute bottom-full translate-y-1 py-1 px-1.5 bg-white dark:bg-neutral-900 text-sm text-neutral-500 dark:text-neutral-400">
+                    Current Bid
+                  </span>
+                  <span className="text-3xl xl:text-4xl font-semibold text-green-500">
+                    1.000 ETH
+                  </span>
+                  <span className="text-lg text-neutral-400 sm:ml-5">
+                    ( ≈ $3,221.22)
+                  </span>
+                </div>
               </div>
               <div className="mt-4 ">
                 <SocialsList itemClass="block w-7 h-7" />
