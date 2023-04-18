@@ -82,7 +82,7 @@ function PageHome() {
         </div> */}
 
         {/* SECTION */}
-        {/* <SectionVideos /> */}
+        <SectionVideos />
       </div>
     </div>
   );
