@@ -17,7 +17,7 @@ export interface SectionGridAuthorBoxProps {
   data?: any[];
 }
 
-const SectionGridAuthorBox: FC<SectionGridAuthorBoxProps> = ({
+const SectionGridLeaderboard: FC<SectionGridAuthorBoxProps> = ({
   className = "",
   boxCard = "box1",
   sectionStyle = "style1",
@@ -157,4 +157,4 @@ const SectionGridAuthorBox: FC<SectionGridAuthorBoxProps> = ({
   );
 };
 
-export default SectionGridAuthorBox;
+export default SectionGridLeaderboard;
