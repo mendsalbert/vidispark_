@@ -35,12 +35,7 @@ const Logo: React.FC<LogoProps> = ({
           alt="Logo-Light"
         />
       )} */}
-      <span
-        className="w-7  h-7 bg-[#008faf] rounded-fu
-      "
-      >
-        V
-      </span>
+      <span className="w-7  h-7 bg-[#008faf] rounded-full">V</span>
     </Link>
   );
 };
