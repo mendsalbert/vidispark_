@@ -58,10 +58,10 @@ function PageHome() {
         {/* SECTION 4 */}
 
         {/* SECTION */}
-        <div className="relative py-20 lg:py-28">
+        {/* <div className="relative py-20 lg:py-28">
           <BackgroundSection />
           <SectionSliderCollections2 cardStyle="style2" />
-        </div>
+        </div> */}
 
         {/* SECTION */}
         <SectionSubscribe2 />
