@@ -2,6 +2,7 @@ import React, { FC } from "react";
 import imagePng from "images/hero-right-3.png";
 import ButtonPrimary from "shared/Button/ButtonPrimary";
 import HeroSearchForm from "components/HeroSearchForm/HeroSearchForm";
+import { Link } from "react-router-dom";
 
 export interface SectionHero2Props {
   className?: string;
@@ -42,16 +43,18 @@ const SectionHero2: FC<SectionHero2Props> = ({ className = "", children }) => {
                 </svg>
               </span>
             </ButtonPrimary>
-            <ButtonPrimary
-              sizeClass="px-4 py-2 sm:px-5"
-              className="bg-red-500  hover:bg-red-700"
-            >
-              Go Live
-              <span className="relative flex h-3 w-3 ml-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gray-100 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-3 w-3 bg-gray-200"></span>
-              </span>
-            </ButtonPrimary>
+            <Link to="/live">
+              <ButtonPrimary
+                sizeClass="px-4 py-2 sm:px-5"
+                className="bg-red-500  hover:bg-red-700"
+              >
+                Go Live
+                <span className="relative flex h-3 w-3 ml-2">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gray-100 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-3 w-3 bg-gray-200"></span>
+                </span>
+              </ButtonPrimary>
+            </Link>
           </div>
         </div>
         <div className="flex-grow">
