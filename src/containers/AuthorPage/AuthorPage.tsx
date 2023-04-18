@@ -103,7 +103,7 @@ const AuthorPage: FC<AuthorPageProps> = ({ className = "" }) => {
                   </span>
                 </div>
                 <div className="mt-2">
-                  <span className="mt-2 py-0 bg-blue rounded-full px-2 text-sm cursor-pointer font-semibold ">
+                  <span className="mt-2 py-0 bg-blue-600 rounded-full px-2 text-sm cursor-pointer font-semibold ">
                     Buy token
                   </span>
                 </div>
