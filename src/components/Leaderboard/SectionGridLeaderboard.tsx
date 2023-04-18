@@ -55,7 +55,7 @@ const SectionGridLeaderboard: FC<SectionGridAuthorBoxProps> = ({
   const renderHeading1 = () => {
     return (
       <div className="mb-12 lg:mb-16  flex justify-between flex-col sm:flex-row">
-        <Heading className="text-neutral-900 dark:text-neutral-50">
+        <Heading className="text-neutral-900 text-center dark:text-neutral-50">
           Leaderboard
         </Heading>
       </div>
