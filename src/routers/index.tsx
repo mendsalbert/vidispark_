@@ -22,6 +22,7 @@ import PageUploadItem from "containers/PageUploadItem";
 import PageConnectWallet from "containers/PageConnectWallet";
 import PageHome2 from "containers/PageHome/PageHome2";
 import PageLive from "containers/pageLive/PageLive";
+import PageLearderboard from "containers/PageLeaderboard/pageLearderboard";
 
 export const pages: Page[] = [
   { path: "/", exact: true, component: PageHome2 },
@@ -37,6 +38,7 @@ export const pages: Page[] = [
   { path: "/page-upload-item", component: PageUploadItem },
   { path: "/connect-wallet", component: PageConnectWallet },
   { path: "/live", component: PageLive },
+  { path: "/leaderboard", component: PageLearderboard },
 
   //
   { path: "/blog", component: BlogPage },
