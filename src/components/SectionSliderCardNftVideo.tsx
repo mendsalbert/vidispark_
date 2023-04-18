@@ -50,7 +50,10 @@ const SectionSliderCardNftVideo: FC<SectionSliderCardNftVideoProps> = ({
   return (
     <div className={`nc-SectionSliderCardNftVideo ${className}`}>
       <div className={`${UNIQUE_CLASS} flow-root`}>
-        <Heading desc="Click on play icon and enjoy NTFs video" hasNextPrev>
+        <Heading
+          desc="Click on play icon and enjoy freshly uploaded video"
+          hasNextPrev
+        >
           Explore Videos
         </Heading>
         <div className="glide__track" data-glide-el="track">
