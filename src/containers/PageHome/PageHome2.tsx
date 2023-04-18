@@ -29,7 +29,7 @@ function PageHome() {
         <SectionHero2 />
 
         {/* SECTION 2 */}
-        <SectionHowItWork className="mt-24 lg:mt-40 xl:mt-48" />
+        {/* <SectionHowItWork className="mt-24 lg:mt-40 xl:mt-48" /> */}
       </div>
 
       {/* SECTION LAERGE SLIDER */}
