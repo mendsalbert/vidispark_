@@ -54,13 +54,13 @@ const SectionVideosLive: FC<SectionVideosLiveProps> = ({
             >
               <NcPlayIcon />
             </div>
-            <NcImage
+            {/* <NcImage
               containerClassName="absolute inset-0 rounded-3xl overflow-hidden will-change-transform"
               className="object-cover w-full h-full transform transition-transform group-hover:scale-105 duration-300  will-change-transform"
               src={video.thumbnail}
               title={video.title}
               alt={video.title}
-            />
+            /> */}
           </>
         )}
       </div>
