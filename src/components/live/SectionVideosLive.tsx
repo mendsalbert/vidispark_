@@ -69,10 +69,7 @@ const SectionVideosLive: FC<SectionVideosLiveProps> = ({
 
   return (
     <div className={`nc-SectionVideos ${className}`}>
-      <Heading
-        desc="Check out our hottest videos. View more and share more new
-          perspectives on just about any topic. Everyone’s welcome."
-      >
+      <Heading desc="Your current settings says everyone with the live link can join">
         <div className="flex flex-row items-center ">
           <span>You are live </span>
           <span className="relative flex h-6 w-6 ml-2">
