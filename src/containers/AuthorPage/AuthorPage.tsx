@@ -96,7 +96,7 @@ const AuthorPage: FC<AuthorPageProps> = ({ className = "" }) => {
                   <span className="absolute bottom-full translate-y-1 py-1 px-1 bg-white dark:bg-neutral-900 text-sm text-neutral-500 dark:text-neutral-400">
                     Vidispark Token{" "}
                   </span>
-                  <span className="text-xl  font-semibold text-green-500">
+                  <span className="text-xl text-center font-semibold text-green-500">
                     40333 VSP
                   </span>
                 </div>
