@@ -99,9 +99,6 @@ const AuthorPage: FC<AuthorPageProps> = ({ className = "" }) => {
                   <span className="text-xl  font-semibold text-green-500">
                     1.000 ETH
                   </span>
-                  <span className="text-lg text-neutral-400 sm:ml-5">
-                    ( ≈ $3,221.22)
-                  </span>
                 </div>
               </div>
               <div className="mt-4 ">
