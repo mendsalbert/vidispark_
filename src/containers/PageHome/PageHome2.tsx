@@ -32,8 +32,6 @@ function PageHome() {
         {/* <SectionHowItWork className="mt-24 lg:mt-40 xl:mt-48" /> */}
       </div>
 
-      {/* SECTION 4 */}
-      <SectionSliderCardNftVideo />
       {/* SECTION LAERGE SLIDER */}
       {/* <div className="bg-neutral-100/70 dark:bg-black/20 py-20 lg:py-32">
         <div className="container">
@@ -54,6 +52,9 @@ function PageHome() {
             boxCard="box4"
           />
         </div>
+
+        {/* SECTION 4 */}
+        <SectionSliderCardNftVideo />
 
         {/* SECTION */}
         <div className="relative py-20 lg:py-28">
