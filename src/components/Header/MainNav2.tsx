@@ -61,12 +61,7 @@ const MainNav2: FC<MainNav2Props> = () => {
             >
               Create
             </ButtonPrimary>
-            <ButtonPrimary
-              href={"/page-upload-item"}
-              sizeClass="px-4 py-2 sm:px-5"
-            >
-              Create
-            </ButtonPrimary>
+
             <ButtonSecondary
               href={"/connect-wallet"}
               sizeClass="px-4 py-2 sm:px-5"
