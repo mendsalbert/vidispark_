@@ -19,7 +19,7 @@ const Logo: React.FC<LogoProps> = ({
       to="/"
       className={`ttnc-logo inline-block text-primary-6000 ${className}`}
     >
-      {img ? (
+      {/* {img ? (
         <img
           className={`block max-h-12 ${imgLight ? "dark:hidden" : ""}`}
           src={img}
@@ -34,7 +34,8 @@ const Logo: React.FC<LogoProps> = ({
           src={imgLight}
           alt="Logo-Light"
         />
-      )}
+      )} */}
+      <span>V</span>
     </Link>
   );
 };
