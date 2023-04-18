@@ -92,7 +92,7 @@ const AuthorPage: FC<AuthorPageProps> = ({ className = "" }) => {
                   Punk #4786 / An OG Cryptopunk Collector, hoarder of NFTs.
                   Contributing to @ether_cards, an NFT Monetization Platform.
                 </span>
-                <div className=" w-[23%] flex-1 flex flex-col sm:flex-row items-baseline p-2 mt-7 border-2 border-green-500 rounded-xl relative">
+                <div className="  flex-1 flex flex-col sm:flex-row items-baseline p-2 mt-7 border-2 border-green-500 rounded-xl relative">
                   <span className="absolute bottom-full translate-y-1 py-1 px-1 bg-white dark:bg-neutral-900 text-sm text-neutral-500 dark:text-neutral-400">
                     Vidispark Token{" "}
                   </span>
