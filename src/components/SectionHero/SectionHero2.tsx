@@ -20,37 +20,39 @@ const SectionHero2: FC<SectionHero2Props> = ({ className = "", children }) => {
           <span className="text-base md:text-lg text-neutral-500 dark:text-neutral-400">
             Empower Your Video Creativity Today!
           </span>
-          <ButtonPrimary>
-            <span>Start your search</span>
-            <span>
-              <svg className="w-5 h-5 ml-2.5" viewBox="0 0 24 24" fill="none">
-                <path
-                  d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                <path
-                  d="M22 22L20 20"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </span>
-          </ButtonPrimary>
-          <ButtonPrimary
-            sizeClass="px-4 py-2 sm:px-5"
-            className="bg-red-500  hover:bg-red-700"
-          >
-            Go Live
-            <span className="relative flex h-3 w-3 ml-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gray-100 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-3 w-3 bg-gray-200"></span>
-            </span>
-          </ButtonPrimary>
+          <div>
+            <ButtonPrimary>
+              <span>Start your search</span>
+              <span>
+                <svg className="w-5 h-5 ml-2.5" viewBox="0 0 24 24" fill="none">
+                  <path
+                    d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M22 22L20 20"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </span>
+            </ButtonPrimary>
+            <ButtonPrimary
+              sizeClass="px-4 py-2 sm:px-5"
+              className="bg-red-500  hover:bg-red-700"
+            >
+              Go Live
+              <span className="relative flex h-3 w-3 ml-2">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gray-100 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-3 w-3 bg-gray-200"></span>
+              </span>
+            </ButtonPrimary>
+          </div>
         </div>
         <div className="flex-grow">
           <img className="w-full" src={imagePng} alt="hero" />
