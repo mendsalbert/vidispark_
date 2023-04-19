@@ -60,8 +60,7 @@ const CardAuthorBox3: FC<CardAuthorBox3Props> = ({
           {/* <FollowButton isFollowing={following} /> */}
         </div>
         <div className="mt-4 text-sm text-neutral-500 dark:text-neutral-400">
-          X-Metaverse is a Star Wars game based on NFT+ blockchain exploration,
-          mining, trading ...
+          Code with mends: I will be coding live at 5pm this coming friday
         </div>
       </div>
 
