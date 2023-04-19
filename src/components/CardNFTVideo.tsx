@@ -144,7 +144,7 @@ const CardNFTVideo: FC<CardNFTVideoProps> = ({
             <span className="block text-xs text-neutral-500 dark:text-neutral-400 font-normal tracking-wide">
               Creator
             </span>
-            <span className="block font-semibold mt-0.5">3h : 15m : 20s</span>
+            <span className="block font-semibold mt-0.5">@mendsalbert</span>
           </div>
         </div>
       </div>
