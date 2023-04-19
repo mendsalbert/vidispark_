@@ -112,6 +112,12 @@ export const NAVIGATION_DEMO_2: NavItemType[] = [
   },
   {
     id: ncNanoId(),
+    href: "/live",
+    name: "Live",
+    children: otherPageChildMenus,
+  },
+  {
+    id: ncNanoId(),
     href: "#",
     name: "Navigation",
     type: "dropdown",
