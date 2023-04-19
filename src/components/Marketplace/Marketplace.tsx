@@ -55,21 +55,8 @@ const Marketplace: FC<SectionGridAuthorBoxProps> = ({
   const renderHeading1 = () => {
     return (
       <div className="mb-12 lg:mb-16  flex justify-between flex-col sm:flex-row">
-        <Heading
-          rightPopoverText="Creators"
-          rightPopoverOptions={[
-            {
-              name: "Creators",
-              href: "#",
-            },
-            {
-              name: "Buyers",
-              href: "#",
-            },
-          ]}
-          className="text-neutral-900 dark:text-neutral-50"
-        >
-          Popular
+        <Heading className="text-neutral-900 dark:text-neutral-50">
+          Market place
         </Heading>
       </div>
     );
