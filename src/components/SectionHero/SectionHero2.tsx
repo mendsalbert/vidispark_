@@ -62,9 +62,9 @@ const SectionHero2: FC<SectionHero2Props> = ({ className = "", children }) => {
         </div>
       </div>
 
-      <div className="z-10 mb-12 lg:mb-0 lg:-mt-20 xl:-mt-48 w-full">
+      {/* <div className="z-10 mb-12 lg:mb-0 lg:-mt-20 xl:-mt-48 w-full">
         <HeroSearchForm />
-      </div>
+      </div> */}
     </div>
   );
 };
