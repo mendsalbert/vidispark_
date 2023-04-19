@@ -100,6 +100,12 @@ export const NAVIGATION_DEMO_2: NavItemType[] = [
   },
   {
     id: ncNanoId(),
+    href: "/marketplace",
+    name: "Marketplace",
+    children: otherPageChildMenus,
+  },
+  {
+    id: ncNanoId(),
     href: "#",
     name: "Navigation",
     type: "dropdown",
