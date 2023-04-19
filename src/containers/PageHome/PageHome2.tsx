@@ -26,6 +26,7 @@ function PageHome() {
 
       <div className="container relative mt-12 mb-20 sm:mb-24 sm:mt-20 lg:mb-32">
         {/* SECTION HERO */}
+        <SectionHero2 />
 
         {/* SECTION 2 */}
         {/* <SectionHowItWork className="mt-24 lg:mt-40 xl:mt-48" /> */}
