@@ -65,7 +65,7 @@ const CardAuthorBox3: FC<CardAuthorBox3Props> = ({
           friday
         </div>
         <div className="flex flex-row w-full items-center justify-between">
-          <span>12/03/22 6:00PM</span>
+          <span>12-03-22 6:00PM</span>
           <span>$500</span>
         </div>
         <span className="bg-blue-600 rounded-full py-1 px-3">Sponser</span>
