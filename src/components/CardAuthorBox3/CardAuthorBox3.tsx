@@ -50,12 +50,12 @@ const CardAuthorBox3: FC<CardAuthorBox3Props> = ({
                 code with mends
                 {/* {personNames[Math.floor(Math.random() * personNames.length)]} */}
               </span>
+              <VerifyIcon />
             </h2>
             <span
               className={`block mt-0.5 text-sm text-neutral-500 dark:text-neutral-400`}
             >
               @creator
-              <VerifyIcon />
             </span>
           </div>
           {/* <FollowButton isFollowing={following} /> */}
