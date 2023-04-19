@@ -64,7 +64,7 @@ const CardAuthorBox3: FC<CardAuthorBox3Props> = ({
           <b>Code with mends</b> : I will be coding live at 5pm this coming
           friday
         </div>
-        <div className="flex py-2 flex-row w-full items-center justify-between">
+        <div className="flex py-2 text-neutral-500 dark:text-neutral-400 flex-row w-full items-center justify-between">
           <span>12-03-22 6:00PM</span>
           <span className="text-green-500 font-bold">$500</span>
         </div>
