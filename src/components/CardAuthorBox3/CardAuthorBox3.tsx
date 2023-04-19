@@ -55,8 +55,8 @@ const CardAuthorBox3: FC<CardAuthorBox3Props> = ({
               className={`block mt-0.5 text-sm text-neutral-500 dark:text-neutral-400`}
             >
               @creator
+              <VerifyIcon />
             </span>
-            <VerifyIcon />
           </div>
           {/* <FollowButton isFollowing={following} /> */}
         </div>
