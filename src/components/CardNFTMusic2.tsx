@@ -126,9 +126,6 @@ const CardNFTMusic2: FC<CardNFTMusic2Props> = ({
               contentClass="py-1.5 px-2 sm:px-3 text-xs sm:text-sm font-semibold"
               labelTextClassName="bg-neutral-100 dark:bg-neutral-800 "
             />
-            <span className="block ml-3.5 text-neutral-500 dark:text-neutral-400 text-xs">
-              1 of 100
-            </span>
           </div>
         </div>
       </Link>
