@@ -118,7 +118,7 @@ const CardNFTMusic2: FC<CardNFTMusic2Props> = ({
         <div className="flex flex-col justify-center flex-grow">
           <h2 className={`block font-medium sm:text-lg`}>NFT music #114</h2>
           <div className=" flex items-center pt-3 mt-1.5">
-            {renderAvatars()}
+            {/* {renderAvatars()} */}
             <Prices
               price="1.00 ETH"
               labelText="Price"
