@@ -95,7 +95,7 @@ export const NAVIGATION_DEMO_2: NavItemType[] = [
   {
     id: ncNanoId(),
     href: "/leaderboard",
-    name: "Learderboard🏆",
+    name: "Learderboard 🏆",
     children: otherPageChildMenus,
   },
   {
