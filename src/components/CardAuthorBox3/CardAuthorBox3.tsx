@@ -47,7 +47,8 @@ const CardAuthorBox3: FC<CardAuthorBox3Props> = ({
           <div>
             <h2 className={`text-base font-medium flex items-center`}>
               <span className="">
-                {personNames[Math.floor(Math.random() * personNames.length)]}
+                code with mends
+                {/* {personNames[Math.floor(Math.random() * personNames.length)]} */}
               </span>
               <VerifyIcon />
             </h2>
