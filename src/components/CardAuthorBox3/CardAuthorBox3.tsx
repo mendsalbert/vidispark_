@@ -60,7 +60,8 @@ const CardAuthorBox3: FC<CardAuthorBox3Props> = ({
           {/* <FollowButton isFollowing={following} /> */}
         </div>
         <div className="mt-4 text-sm text-neutral-500 dark:text-neutral-400">
-          Code with mends: I will be coding live at 5pm this coming friday
+          <b>Code with mends</b> : I will be coding live at 5pm this coming
+          friday
         </div>
       </div>
 
