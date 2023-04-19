@@ -64,7 +64,7 @@ const CardAuthorBox3: FC<CardAuthorBox3Props> = ({
           <b>Code with mends</b> : I will be coding live at 5pm this coming
           friday
         </div>
-        <ButtonPrimary>Sponser</ButtonPrimary>
+        <span>Sponser</span>
       </div>
 
       <Link to={"/page-author"} className="absolute inset-0"></Link>
