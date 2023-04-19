@@ -84,7 +84,7 @@ const Marketplace: FC<SectionGridAuthorBoxProps> = ({
           isCenter
           desc=""
         >
-          Market place
+          Top List Creators.
         </Heading>
         <Nav
           className="p-1 bg-white dark:bg-neutral-800 rounded-full shadow-lg"
