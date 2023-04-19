@@ -138,7 +138,7 @@ const CardNFTVideo: FC<CardNFTVideoProps> = ({
           </div> */}
         </div>
 
-        {/* <div className="flex justify-between items-end mt-3.5">
+        <div className="flex justify-between items-end mt-3.5">
           <Prices labelTextClassName="bg-white dark:bg-neutral-900 " />
           <div className="text-right">
             <span className="block text-xs text-neutral-500 dark:text-neutral-400 font-normal tracking-wide">
@@ -146,7 +146,7 @@ const CardNFTVideo: FC<CardNFTVideoProps> = ({
             </span>
             <span className="block font-semibold mt-0.5">3h : 15m : 20s</span>
           </div>
-        </div> */}
+        </div>
       </div>
 
       <Link to={"/nft-detailt"} className="absolute inset-0"></Link>
