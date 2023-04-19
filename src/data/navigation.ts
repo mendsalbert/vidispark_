@@ -95,7 +95,7 @@ export const NAVIGATION_DEMO_2: NavItemType[] = [
   {
     id: ncNanoId(),
     href: "#",
-    name: "Discover",
+    name: "Menu",
     type: "dropdown",
     children: otherPageChildMenus,
   },
