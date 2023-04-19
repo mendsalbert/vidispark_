@@ -66,7 +66,7 @@ const CardAuthorBox3: FC<CardAuthorBox3Props> = ({
         </div>
         <span>12/03/22 6:00PM</span>
         <span>$500</span>
-        <span>Sponser</span>
+        <span className="bg-blue-600 rounded-full py-1 px-3">Sponser</span>
       </div>
 
       <Link to={"/page-author"} className="absolute inset-0"></Link>
