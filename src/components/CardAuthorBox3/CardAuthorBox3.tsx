@@ -64,7 +64,7 @@ const CardAuthorBox3: FC<CardAuthorBox3Props> = ({
           <b>Code with mends</b> : I will be coding live at 5pm this coming
           friday
         </div>
-        <span>Date</span>
+        <span>12/03/22 6:00PM</span>
         <span>Price</span>
         <span>Sponser</span>
       </div>
