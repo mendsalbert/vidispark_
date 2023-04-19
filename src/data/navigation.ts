@@ -94,8 +94,8 @@ const otherPageChildMenus: NavItemType[] = [
 export const NAVIGATION_DEMO_2: NavItemType[] = [
   {
     id: ncNanoId(),
-    href: "#",
-    name: "Navigation",
+    href: "/leaderboard",
+    name: "Learderboard",
     children: otherPageChildMenus,
   },
   {
