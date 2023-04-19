@@ -5,6 +5,7 @@ import NcImage from "shared/NcImage/NcImage";
 import { nftsAbstracts, personNames } from "contains/fakeData";
 import VerifyIcon from "components/VerifyIcon";
 import FollowButton from "components/FollowButton";
+import ButtonPrimary from "shared/Button/ButtonPrimary";
 
 export interface CardAuthorBox3Props {
   className?: string;
@@ -63,6 +64,7 @@ const CardAuthorBox3: FC<CardAuthorBox3Props> = ({
           <b>Code with mends</b> : I will be coding live at 5pm this coming
           friday
         </div>
+        <ButtonPrimary>Sponser</ButtonPrimary>
       </div>
 
       <Link to={"/page-author"} className="absolute inset-0"></Link>
