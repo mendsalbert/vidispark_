@@ -6,7 +6,7 @@ type Props = {};
 const PageMarketplace = (props: Props) => {
   return (
     <div>
-      <Marketplace />
+      <Marketplace boxCard="box3" />
     </div>
   );
 };
