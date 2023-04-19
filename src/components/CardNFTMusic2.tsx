@@ -108,13 +108,6 @@ const CardNFTMusic2: FC<CardNFTMusic2Props> = ({
       data-nc-id="CardNFTMusic2"
     >
       <Link to={"/nft-detailt"} className="flex-grow flex space-x-4">
-        <div className="relative w-16 sm:w-24">
-          <NcImage
-            containerClassName="absolute inset-0 rounded-2xl overflow-hidden shadow-lg "
-            src={featuredImage}
-          />
-        </div>
-
         <div className="flex flex-col justify-center flex-grow">
           <h2 className={`block font-medium sm:text-lg`}>NFT music #114</h2>
           <div className=" flex items-center pt-3 mt-1.5">
