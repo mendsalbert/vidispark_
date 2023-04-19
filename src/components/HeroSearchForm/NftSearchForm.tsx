@@ -35,8 +35,8 @@ const NftSearchForm: FC<NftSearchFormProps> = ({
         />
 
         <ItemTypeSelect />
-        <PropertyTypeSelect />
-        <PriceRangeInput />
+        {/* <PropertyTypeSelect /> */}
+        {/* <PriceRangeInput /> */}
         {/* BUTTON SUBMIT OF FORM */}
         <div className="px-4 py-4 lg:py-0">
           <ButtonSubmit />
