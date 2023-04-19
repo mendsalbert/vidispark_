@@ -70,7 +70,7 @@ function PageHome() {
         {/* SECTION */}
         <div className="relative py-20 lg:py-24">
           <BackgroundSection />
-          <SectionBecomeAnAuthor />
+          {/* <SectionBecomeAnAuthor /> */}
         </div>
 
         {/* SECTION */}
