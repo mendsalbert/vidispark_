@@ -142,7 +142,7 @@ const CardNFTVideo: FC<CardNFTVideoProps> = ({
           <Prices labelTextClassName="bg-white dark:bg-neutral-900 " />
           <div className="text-right">
             <span className="block text-xs text-neutral-500 dark:text-neutral-400 font-normal tracking-wide">
-              Remaining time
+              Creator
             </span>
             <span className="block font-semibold mt-0.5">3h : 15m : 20s</span>
           </div>
