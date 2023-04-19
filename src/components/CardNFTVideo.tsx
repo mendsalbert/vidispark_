@@ -130,12 +130,12 @@ const CardNFTVideo: FC<CardNFTVideoProps> = ({
           <h2 className={`sm:text-lg font-semibold`}>
             NFT Video #{Math.floor(Math.random() * 1000) + 1000}
           </h2>
-          <div className="ml-2 flex items-center space-x-3">
+          {/* <div className="ml-2 flex items-center space-x-3">
             {renderAvatars()}
             <span className="text-neutral-700 dark:text-neutral-400 text-xs">
               1 of 100
             </span>
-          </div>
+          </div> */}
         </div>
 
         <div className="flex justify-between items-end mt-3.5">
