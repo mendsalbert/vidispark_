@@ -64,8 +64,10 @@ const CardAuthorBox3: FC<CardAuthorBox3Props> = ({
           <b>Code with mends</b> : I will be coding live at 5pm this coming
           friday
         </div>
-        <span>12/03/22 6:00PM</span>
-        <span>$500</span>
+        <div>
+          <span>12/03/22 6:00PM</span>
+          <span>$500</span>
+        </div>
         <span className="bg-blue-600 rounded-full py-1 px-3">Sponser</span>
       </div>
 
