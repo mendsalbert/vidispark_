@@ -36,7 +36,7 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
             className="object-cover w-full h-full"
           /> */}
         </div>
-        <div className="relative container -mt-14 lg:-mt-20"></div>
+        <div className="relative container -mt-14 lg:-mt-20">fsdf</div>
       </div>
       {/* ====================== END HEADER ====================== */}
 
