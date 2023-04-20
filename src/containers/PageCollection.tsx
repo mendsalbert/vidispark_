@@ -90,7 +90,7 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
                     ></span>
                     <span>{item.name}</span>
                   </div>
-                </NavItem>
+                </NavItem2>
               ))}
             </Nav>{" "}
             {/* <div className="flex flex-col sm:flex-row md:block sm:items-start sm:justify-between">
