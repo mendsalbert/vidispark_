@@ -78,7 +78,7 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
                `,
                 },
               ].map((item, index) => (
-                <NavItem
+                <NavItem2
                   key={index}
                   isActive={tabActive === item.name}
                   onClick={() => setTabActive(item.name)}
