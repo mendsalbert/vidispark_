@@ -114,6 +114,12 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
           <main className="flex flex-row w-full justify-between space-x-10">
             <div className=" bg-white dark:bg-neutral-900  p-4 dark:border dark:border-neutral-700 rounded-3xl md:rounded-[40px] shadow-xl flex flex-col  lg:items-center">
               <span>1</span>
+              <span>1</span>
+              <span>1</span>
+              <span>1</span>
+              <span>1</span>
+              <span>1</span>
+              <span>1</span>
             </div>
 
             {/* TABS FILTER */}
