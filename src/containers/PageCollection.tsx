@@ -29,7 +29,7 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
 
       {/* HEADER */}
       <div className="w-full">
-        <div className="relative w-full h-20 md:h-60 2xl:h-72">
+        <div className="relative w-full h-20 md:h-20 2xl:h-72">
           {/* <NcImage
             containerClassName="absolute inset-0"
             src={collectionBanner}
