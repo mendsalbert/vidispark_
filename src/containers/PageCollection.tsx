@@ -14,12 +14,15 @@ import SectionSliderCollections from "components/SectionSliderCollections";
 import SectionBecomeAnAuthor from "components/SectionBecomeAnAuthor/SectionBecomeAnAuthor";
 import Nav from "shared/Nav/Nav";
 import NavItem from "shared/NavItem/NavItem";
+import NavItem2 from "components/NavItem2";
 
 export interface PageCollectionProps {
   className?: string;
 }
 
 const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
+  const [tabActive, setTabActive] = React.useState("Popular");
+
   return (
     <div
       className={`nc-PageCollection  ${className}`}
