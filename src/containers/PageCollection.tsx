@@ -33,7 +33,7 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
       </Helmet>
 
       {/* HEADER */}
-      <div className="w-full">
+      {/* <div className="w-full">
         <div className="relative w-full h-20 md:h-20 2xl:h-20"></div>
         <div className="relative container -mt-14 lg:-mt-20">
           <div className=" bg-white dark:bg-neutral-900  p-4 dark:border dark:border-neutral-700 rounded-3xl md:rounded-[40px] shadow-xl flex flex-col  lg:items-center">
@@ -107,7 +107,7 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
             </Nav>{" "}
           </div>
         </div>
-      </div>
+      </div> */}
       {/* ====================== END HEADER ====================== */}
 
       <div className="container py-16 lg:pb-28 lg:pt-20 space-y-20 lg:space-y-28">
