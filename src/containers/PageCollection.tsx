@@ -45,7 +45,6 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
               {[
                 {
                   name: "Popular",
-                  icon: <UserAddIcon />,
                 },
                 {
                   name: "Following",
@@ -74,10 +73,11 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
                   onClick={() => setTabActive(item.name)}
                 >
                   <div className="flex items-center justify-center sm:space-x-2.5 text-xs sm:text-sm ">
-                    <span
+                    {/* <span
                       className="hidden sm:inline-block"
                       dangerouslySetInnerHTML={{ __html: item.icon }}
-                    ></span>
+                    ></span> */}
+
                     <span>{item.name}</span>
                   </div>
                 </NavItem2>
