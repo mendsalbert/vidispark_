@@ -97,7 +97,7 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
               </div>
               <div className="mt-6 xl:mt-8 grid grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4 xl:gap-6">
                 {/* ----- 1 ----- */}
-                <div className="rounded-2xl flex flex-col items-center justify-center shadow-md border border-neutral-50 dark:border-neutral-800 p-5 lg:p-6">
+                {/* <div className="rounded-2xl flex flex-col items-center justify-center shadow-md border border-neutral-50 dark:border-neutral-800 p-5 lg:p-6">
                   <span className="text-sm text-neutral-500 dark:text-neutral-400">
                     Floor Price
                   </span>
@@ -105,10 +105,10 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
                     $295,481.62
                   </span>
                   <span className="text-xs text-green-500 mt-1">+2.11%</span>
-                </div>
+                </div> */}
 
                 {/* ----- Volume ----- */}
-                <div className="rounded-2xl flex flex-col items-center justify-center shadow-md border border-neutral-50 dark:border-neutral-800 p-5 lg:p-6">
+                {/* <div className="rounded-2xl flex flex-col items-center justify-center shadow-md border border-neutral-50 dark:border-neutral-800 p-5 lg:p-6">
                   <span className="text-sm text-neutral-500 dark:text-neutral-400">
                     Volume
                   </span>
@@ -118,9 +118,9 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
                   <span className="text-xs text-neutral-500 dark:text-neutral-400 mt-1">
                     total
                   </span>
-                </div>
+                </div> */}
                 {/* ----- Latest Price ----- */}
-                <div className="rounded-2xl flex flex-col items-center justify-center shadow-md border border-neutral-50 dark:border-neutral-800 p-5 lg:p-6">
+                {/* <div className="rounded-2xl flex flex-col items-center justify-center shadow-md border border-neutral-50 dark:border-neutral-800 p-5 lg:p-6">
                   <span className="text-sm text-neutral-500 dark:text-neutral-400">
                     Latest Price
                   </span>
@@ -128,10 +128,10 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
                     $295,481.62
                   </span>
                   <span className="text-xs text-green-500 mt-1"> --</span>
-                </div>
+                </div> */}
 
                 {/* -----Items ----- */}
-                <div className="rounded-2xl flex flex-col items-center justify-center shadow-md border border-neutral-50 dark:border-neutral-800 p-5 lg:p-6">
+                {/* <div className="rounded-2xl flex flex-col items-center justify-center shadow-md border border-neutral-50 dark:border-neutral-800 p-5 lg:p-6">
                   <span className="text-sm text-neutral-500 dark:text-neutral-400">
                     Items
                   </span>
@@ -141,7 +141,7 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
                   <span className="text-xs text-neutral-500 dark:text-neutral-400 mt-1">
                     total
                   </span>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
