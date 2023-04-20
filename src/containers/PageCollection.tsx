@@ -38,8 +38,8 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
         <div className="relative container -mt-14 lg:-mt-20">
           <div className=" bg-white dark:bg-neutral-900  p-4 dark:border dark:border-neutral-700 rounded-3xl md:rounded-[40px] shadow-xl flex flex-col  lg:items-center">
             <Nav
-              className="p-1 bg-white flex flex-row dark:bg-neutral-800 rounded-full shadow-lg"
-              containerClassName=" relative flex flex-row justify-center w-full text-sm md:text-base"
+              className="p-1 bg-white flex dark:bg-neutral-800 rounded-full shadow-lg"
+              containerClassName=" relative flex justify-center w-full text-sm md:text-base"
             >
               {[
                 {
@@ -91,7 +91,6 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
                 },
               ].map((item, index) => (
                 <NavItem2
-                  className="flex flex-row"
                   key={index}
                   isActive={tabActive === item.name}
                   onClick={() => setTabActive(item.name)}
