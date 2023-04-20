@@ -41,7 +41,7 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
             className="object-cover w-full h-full"
           /> */}
         </div>
-        <div className="relative container -mt-14 lg:-mt-20">
+        <div className="">
           <div className=" bg-white dark:bg-neutral-900 dark:border dark:border-neutral-700  rounded-3xl md:rounded-[40px] shadow-xl flex flex-col md:flex-row lg:items-center">
             <Nav
               className="p-1 bg-white dark:bg-neutral-800 rounded-full shadow-lg"
