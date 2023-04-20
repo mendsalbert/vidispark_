@@ -109,34 +109,35 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
         </div>
       </div> */}
       {/* ====================== END HEADER ====================== */}
+      <div>
+        <div className="container py-16 lg:pb-28 lg:pt-20 space-y-20 lg:space-y-28">
+          <main>
+            {/* TABS FILTER */}
+            {/* <TabFilters /> */}
 
-      <div className="container py-16 lg:pb-28 lg:pt-20 space-y-20 lg:space-y-28">
-        <main>
-          {/* TABS FILTER */}
-          {/* <TabFilters /> */}
+            {/* LOOP ITEMS */}
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-8 lg:mt-10">
+              {Array.from("11111111").map((_, index) => (
+                <CardNFT key={index} />
+              ))}
+            </div>
 
-          {/* LOOP ITEMS */}
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-8 lg:mt-10">
-            {Array.from("11111111").map((_, index) => (
-              <CardNFT key={index} />
-            ))}
+            {/* PAGINATION */}
+            <div className="flex flex-col mt-12 lg:mt-16 space-y-5 sm:space-y-0 sm:space-x-3 sm:flex-row sm:justify-between sm:items-center">
+              <Pagination />
+              <ButtonPrimary loading>Show me more</ButtonPrimary>
+            </div>
+          </main>
+
+          {/* === SECTION 5 === */}
+          <div className="relative py-20 lg:py-28">
+            <BackgroundSection />
+            <SectionSliderCollections />
           </div>
 
-          {/* PAGINATION */}
-          <div className="flex flex-col mt-12 lg:mt-16 space-y-5 sm:space-y-0 sm:space-x-3 sm:flex-row sm:justify-between sm:items-center">
-            <Pagination />
-            <ButtonPrimary loading>Show me more</ButtonPrimary>
-          </div>
-        </main>
-
-        {/* === SECTION 5 === */}
-        <div className="relative py-20 lg:py-28">
-          <BackgroundSection />
-          <SectionSliderCollections />
+          {/* SUBCRIBES */}
+          <SectionBecomeAnAuthor />
         </div>
-
-        {/* SUBCRIBES */}
-        <SectionBecomeAnAuthor />
       </div>
     </div>
   );
