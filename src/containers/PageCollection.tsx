@@ -86,14 +86,14 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
             </div> */}
             <div className="mt-5 md:mt-0 md:ml-8 xl:ml-14 flex-grow">
               <div className="max-w-screen-sm ">
-                <h2 className="inline-block text-2xl sm:text-3xl lg:text-4xl font-semibold">
+                {/* <h2 className="inline-block text-2xl sm:text-3xl lg:text-4xl font-semibold">
                   {"Awesome NFTs collection "}
                 </h2>
                 <span className="block mt-4 text-sm text-neutral-500 dark:text-neutral-400">
                   Karafuru is home to 5,555 generative arts where colors reign
                   supreme. Leave the drab reality and enter the world of
                   Karafuru by Museum of Toys.
-                </span>
+                </span> */}
               </div>
               <div className="mt-6 xl:mt-8 grid grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4 xl:gap-6">
                 {/* ----- 1 ----- */}
