@@ -91,6 +91,7 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
                 },
               ].map((item, index) => (
                 <NavItem2
+                  className="flex flex-row"
                   key={index}
                   isActive={tabActive === item.name}
                   onClick={() => setTabActive(item.name)}
