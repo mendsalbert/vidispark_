@@ -113,7 +113,7 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
       <div className="container py-16 lg:pb-28 lg:pt-20 space-y-20 lg:space-y-28">
         <main>
           {/* TABS FILTER */}
-          <TabFilters />
+          {/* <TabFilters /> */}
 
           {/* LOOP ITEMS */}
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-8 lg:mt-10">
