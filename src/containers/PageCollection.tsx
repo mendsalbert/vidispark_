@@ -112,6 +112,8 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
       <div className="">
         <div className="container py-16 lg:pb-28 lg:pt-20 space-y-20 lg:space-y-28">
           <main>
+            <div className=" bg-white dark:bg-neutral-900  p-4 dark:border dark:border-neutral-700 rounded-3xl md:rounded-[40px] shadow-xl flex flex-col  lg:items-center"></div>
+
             {/* TABS FILTER */}
             {/* <TabFilters /> */}
 
