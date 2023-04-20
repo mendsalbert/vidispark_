@@ -114,7 +114,7 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
           <main className="flex flex-row w-full justify-between space-x-10">
             <div className=" bg-white dark:bg-neutral-900 h-max  p-4 dark:border dark:border-neutral-700 rounded-3xl md:rounded-[40px] shadow-xl flex flex-col  lg:items-center">
               <Nav
-                className="p-1 bg-white  space-y-6 flex flex-col dark:bg-neutral-800 rounded-full shadow-lg"
+                className="p-1  space-y-6 flex flex-col rounded-full shadow-lg"
                 containerClassName=" relative flex flex justify-center w-full text-sm md:text-base"
               >
                 {[
