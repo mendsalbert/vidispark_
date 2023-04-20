@@ -25,7 +25,7 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
 
   return (
     <div
-      className={`nc-PageCollection  ${className}`}
+      className={`nc-PageCollection  ${className} flex flex-row`}
       data-nc-id="PageCollection"
     >
       <Helmet>
