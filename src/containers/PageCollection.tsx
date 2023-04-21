@@ -180,7 +180,6 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
           </div>
           {pageRendererHandler()}
         </main>
-        <SectionBecomeAnAuthor />
       </div>
       {/* </div> */}
     </div>
