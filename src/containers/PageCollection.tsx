@@ -28,7 +28,7 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
   const pageRendererHandler = () => {
     switch (tabActive) {
       case "Videos":
-        return <SectionSliderCardNftVideo />;
+        return <VideoT />;
       case "Leaderboard":
         return <PageLearderboard />;
       case "Marketplace":
