@@ -64,7 +64,7 @@ const VideoTab: FC<SectionSliderCardNftVideoProps> = ({
               "https://images.unsplash.com/photo-1643101808513-0552e31e4d9c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
               "https://images.unsplash.com/photo-1638913974023-cef988e81629?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             ].map((item, index) => (
-              <li key={index} className={`grid grid-cols-4`}>
+              <li key={index} className={`grid grid-cols-4${itemClassName}`}>
                 <CardNFTVideo featuredImage={item} />
               </li>
             ))}
