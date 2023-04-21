@@ -36,7 +36,7 @@ const OPTIONS: Glide.Options = {
   },
 };
 
-const SectionSliderCardNftVideo: FC<SectionSliderCardNftVideoProps> = ({
+const VideoTab: FC<SectionSliderCardNftVideoProps> = ({
   className = "",
   itemClassName = "",
 }) => {
@@ -54,7 +54,7 @@ const SectionSliderCardNftVideo: FC<SectionSliderCardNftVideoProps> = ({
           desc="Click on play icon and enjoy freshly uploaded videos"
           hasNextPrev
         >
-          Explore NFT Videos
+          Recently uploaded Videos
         </Heading>
         <div className="glide__track" data-glide-el="track">
           <ul className="glide__slides">
@@ -109,4 +109,4 @@ const SectionSliderCardNftVideo: FC<SectionSliderCardNftVideoProps> = ({
   );
 };
 
-export default SectionSliderCardNftVideo;
+export default VideoTab;
