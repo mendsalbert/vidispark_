@@ -17,6 +17,7 @@ import NavItem from "shared/NavItem/NavItem";
 import NavItem2 from "components/NavItem2";
 import SectionSliderCardNftVideo from "components/SectionSliderCardNftVideo";
 import PageLearderboard from "./PageLeaderboard/pageLearderboard";
+import PageMarketplace from "./PageMarketplace/PageMarketplace";
 
 export interface PageCollectionProps {
   className?: string;
@@ -31,7 +32,7 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
       case "Leaderboard":
         return <PageLearderboard />;
       case "Marketplace":
-        return <SectionSliderCardNftVideo />;
+        return <PageMarketplace />;
       case "Start Live":
         return <SectionSliderCardNftVideo />;
       case "Vidisverse":
