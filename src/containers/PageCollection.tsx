@@ -18,6 +18,7 @@ import NavItem2 from "components/NavItem2";
 import SectionSliderCardNftVideo from "components/SectionSliderCardNftVideo";
 import PageLearderboard from "./PageLeaderboard/pageLearderboard";
 import PageMarketplace from "./PageMarketplace/PageMarketplace";
+import VideoTab from "components/VideoTab";
 
 export interface PageCollectionProps {
   className?: string;
@@ -28,7 +29,7 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
   const pageRendererHandler = () => {
     switch (tabActive) {
       case "Videos":
-        return <VideoT />;
+        return <VideoTab />;
       case "Leaderboard":
         return <PageLearderboard />;
       case "Marketplace":
