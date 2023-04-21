@@ -57,7 +57,7 @@ const VideoTab: FC<SectionSliderCardNftVideoProps> = ({
           Recently uploaded Videos
         </Heading>
         <div className="glide__track" data-glide-el="track">
-          <ul className="grid grid-co">
+          <ul className="grid grid-col-3">
             {[
               "https://images.unsplash.com/photo-1643101809204-6fb869816dbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
               "https://images.unsplash.com/photo-1643101808200-0d159c1331f9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
