@@ -69,7 +69,7 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
         {/* <div className="container py-16 lg:pb-28 lg:pt-20 space-y-20 lg:space-y-28"> */}
         <main className="flex flex-row w-full justify-between space-x-10">
           {/* <div className=" bg-white dark:bg-neutral-900 h-max  p-0 dark:border dark:border-neutral-700 rounded-3xl md:rounded-[40px] shadow-xl flex flex-col  lg:items-center"> */}
-          <div className=" bg-white dark:bg-neutral-900 h-max  p-0 dark:border dark:border-neutral-700 rounded-tr-2xl shadow-xl flex flex-col  lg:items-center">
+          <div className=" bg-white dark:bg-neutral-900 h-max  p-0 dark:border dark:border-neutral-700 rounded-tr-3xl rounded-br-3xl shadow-xl flex flex-col  lg:items-center">
             <Nav
               className="py-5 space-y-6 flex flex-col rounded-full shadow-lg"
               containerClassName=" relative flex flex justify-center w-full text-sm md:text-base"
