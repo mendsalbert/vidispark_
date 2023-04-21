@@ -178,26 +178,8 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
                 ))}
               </Nav>{" "}
             </div>
-
-            {/* TABS FILTER */}
-            {/* <TabFilters /> */}
-
-            {/* LOOP ITEMS */}
             {pageRendererHandler()}
-            {/* <div className="w-full grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 ">
-              {Array.from("11111111").map((_, index) => (
-                <CardNFT key={index} />
-              ))}
-            </div> */}
           </main>
-
-          {/* === SECTION 5 === */}
-          {/* <div className="relative py-20 lg:py-28">
-            <BackgroundSection />
-            <SectionSliderCollections />
-          </div> */}
-
-          {/* SUBCRIBES */}
           <SectionBecomeAnAuthor />
         </div>
       </div>
