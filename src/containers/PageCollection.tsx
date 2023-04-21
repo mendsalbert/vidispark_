@@ -151,17 +151,7 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
               
               `,
                   },
-                  {
-                    name: "Followers",
-                    icon: `<svg xmlns="http://www.w3.org/2000/svg"  class="w-7 h-7" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
-                    <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
-                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                    <path d="M21 21v-2a4 4 0 0 0 -3 -3.85"></path>
-                 </svg>
-               `,
-                  },
+
                   {
                     name: "Marketplace",
                     icon: `<svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -193,6 +183,17 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
                     <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                     <path d="M16 19h6"></path>
                     <path d="M19 16v6"></path>
+                 </svg>
+               `,
+                  },
+                  {
+                    name: "Followers",
+                    icon: `<svg xmlns="http://www.w3.org/2000/svg"  class="w-7 h-7" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                    <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    <path d="M21 21v-2a4 4 0 0 0 -3 -3.85"></path>
                  </svg>
                `,
                   },
