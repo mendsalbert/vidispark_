@@ -27,9 +27,20 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
     switch (tabActive) {
       case "Video":
         return <SectionSliderCardNftVideo />;
-
-        break;
-
+      case "Leaderboard":
+        return <SectionSliderCardNftVideo />;
+      case "Marketplace":
+        return <SectionSliderCardNftVideo />;
+      case "Start Live":
+        return <SectionSliderCardNftVideo />;
+      case "Vidisverse":
+        return <SectionSliderCardNftVideo />;
+      case "Following":
+        return <SectionSliderCardNftVideo />;
+      case "Followers":
+        return <SectionSliderCardNftVideo />;
+      case "Upload":
+        return <SectionSliderCardNftVideo />;
       default:
         break;
     }
