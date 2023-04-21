@@ -109,6 +109,7 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
         </div>
       </div> */}
       {/* ====================== END HEADER ====================== */}
+
       <div className="">
         <div className="container py-16 lg:pb-28 lg:pt-20 space-y-20 lg:space-y-28">
           <main className="flex flex-row w-full justify-between space-x-10">
