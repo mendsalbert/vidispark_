@@ -26,7 +26,7 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
   const [tabActive, setTabActive] = React.useState("Popular");
   const pageRendererHandler = () => {
     switch (tabActive) {
-      case "Video":
+      case "Videos":
         return <SectionSliderCardNftVideo />;
       case "Leaderboard":
         return <PageLearderboard />;
