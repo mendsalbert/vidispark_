@@ -29,7 +29,13 @@ const PageCollection: FC<PageCollectionProps> = ({ className = "" }) => {
   const pageRendererHandler = () => {
     switch (tabActive) {
       case "Videos":
-        return <VideoTab />;
+        return (
+          <div className="w-full grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 ">
+            {Array.from("11111111").map((_, index) => (
+              <CardNFT key={index} />
+            ))}
+          </div>
+        );
       case "Leaderboard":
         return <PageLearderboard />;
       case "Marketplace":
