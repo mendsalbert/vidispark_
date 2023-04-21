@@ -68,7 +68,7 @@ const VideoTab: FC<SectionSliderCardNftVideoProps> = ({
                 <CardNFTVideo featuredImage={item} />
               </li>
             ))}
-            <li className={`glide__slide  ${itemClassName}`}>
+            <li className={`grid grid-cols-3  ${itemClassName}`}>
               <Link to={"/page-search"} className="block relative group">
                 <div className="flex aspect-w-16 aspect-h-9 w-full h-0 rounded-3xl bg-neutral-100 dark:bg-neutral-800"></div>
                 <div className="absolute inset-y-6 inset-x-10  flex flex-col items-center justify-center">
